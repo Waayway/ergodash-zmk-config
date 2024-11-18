@@ -11,6 +11,11 @@
 #define LOWER   1
 #define RAISE   2
 
+&mt {
+    quick-tap-ms = <150>;
+    flavor = "tap-preferred";
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
